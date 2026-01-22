@@ -18,7 +18,7 @@ body {
 
 nav{
   display: flex;
-  gap: 20px;
+  gap: 10px;
   justify-content: space-between;
 }
 .navbar {
@@ -37,10 +37,10 @@ nav{
 }
 
 .navbar nav a {
-  margin-left: 24px;
   text-decoration: none;
   color: #ccc;
   font-size: 14px;
+  margin-left: 30px;
 }
 
 .navbar nav :hover {
@@ -49,6 +49,7 @@ nav{
 
 .dropdown {
   position: relative;
+  margin-left: 30px;
 }
 .dropdown span:hover{
   color: #1dd1a1;
@@ -157,19 +158,16 @@ nav{
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
 }
 
-
-.dropdown {
-  position: relative;
-  cursor: pointer;
+.social-icons {
   display: flex;
+  gap: 15px;
 }
 
-.dropdown-toggle {
-  color: #cfcfcf;
+.social-icons a {
+  color: #cccccc;
   font-size: 14px;
 }
-.social-icons:hover{
-  color: #1dd1a1;
-  cursor: pointer;
 
+.social-icons a:hover {
+  color:#1dd1a1;
 }
